@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">U14A2</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="about_text">
+        "Developed By - McCauley Hallam\n\n"
+
+        "Development Started - 09/03/2017\n\n"
+
+        "Version - v0.1\n\n\n"
+
+
+        "How to use this program...\n\n"
+
+        "1. Start by choosing the course that you have taken, either Software or Hardware... Check the appropriate button and press continue.\n"
+        "2. On the next page, choose the grade that you have received for each unit. After you have finished ensure that all of the grades are correct, then you can press continue\n"
+        "3. This is the final page, here you should see your total score alongside the overall grade you have achieved.\n\n"
+        "That is everything you need to know, you're ready to try it out yourself!\n\n"
+
+        "For more information, visit the following links...\n"
+        "https://www.ucas.com/\n"
+        "http://southdevon.ac.uk/university"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+</resources>

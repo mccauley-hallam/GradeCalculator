@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/software"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mccauley.u14a2.software">
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_0"
+        android:layout_alignParentTop="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_2"
+        android:layout_below="@+id/spinner_0"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_3"
+        android:layout_below="@+id/spinner_2"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_4"
+        android:layout_below="@+id/spinner_3"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_5"
+        android:layout_below="@+id/spinner_4"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_6"
+        android:layout_below="@+id/spinner_5"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_7"
+        android:layout_below="@+id/spinner_6"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_8"
+        android:layout_below="@+id/spinner_7"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_9"
+        android:layout_below="@+id/spinner_8"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_11"
+        android:layout_below="@+id/spinner_10"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_12"
+        android:layout_below="@+id/spinner_11"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_13"
+        android:layout_below="@+id/spinner_12"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_14"
+        android:layout_below="@+id/spinner_13"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_15"
+        android:layout_below="@+id/spinner_14"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_16"
+        android:layout_below="@+id/spinner_15"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_17"
+        android:layout_below="@+id/spinner_16"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_1"
+        android:layout_below="@+id/spinner_17"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_2"
+        android:layout_toEndOf="@+id/spinner_0"
+        android:id="@+id/textView3"
+        android:text="Unit 1 – Communication and Employment...." />
+
+    <TextView
+        android:text="Unit 2 - Computer Systems "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_3"
+        android:layout_toEndOf="@+id/spinner_2"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="Unit 3 – Information Systems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_4"
+        android:layout_toEndOf="@+id/spinner_3"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Unit 6 – Software Design and Development "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_5"
+        android:layout_toEndOf="@+id/spinner_4"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:text="Unit 9 – Computer Networks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_6"
+        android:layout_toEndOf="@+id/spinner_5"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:text="Unit 26 – Mathematics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_7"
+        android:layout_toEndOf="@+id/spinner_6"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:text="Unit 18 – Database Design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_8"
+        android:layout_toEndOf="@+id/spinner_7"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text="Unit 28 – Website Production"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_9"
+        android:layout_toEndOf="@+id/spinner_8"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:text="Unit 43 – Multimedia Design"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignBottom="@+id/spinner_9"
+        android:layout_toEndOf="@+id/spinner_9" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_10"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Continue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Year 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_above="@+id/spinner_10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Unit 14 – Event Driven Programming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_11"
+        android:layout_toEndOf="@+id/spinner_11"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Unit 15 - Object Oriented Programming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_12"
+        android:layout_toEndOf="@+id/spinner_11"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="Unit 17 – Project Planning with IT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_13"
+        android:layout_toEndOf="@+id/spinner_12"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text="Unit 20 – Client Side Customisation of Web..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_14"
+        android:layout_toEndOf="@+id/spinner_13"
+        android:id="@+id/textView17" />
+
+    <TextView
+        android:text="Unit 22 – Developing Computer Games "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_15"
+        android:layout_toEndOf="@+id/spinner_14"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:text="Unit 23 – Human Computer Interaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_16"
+        android:layout_toEndOf="@+id/spinner_15"
+        android:id="@+id/textView19" />
+
+    <TextView
+        android:text="Unit 30 – Digital Graphics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_17"
+        android:layout_toEndOf="@+id/spinner_16"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:text="Unit 31 – Computer Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_1"
+        android:layout_toEndOf="@+id/spinner_17"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="Unit 27 – Web Server Scripting "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner_1"
+        android:layout_toEndOf="@+id/spinner_1"
+        android:id="@+id/textView22" />
+
+</RelativeLayout>
