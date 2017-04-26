@@ -264,10 +264,11 @@ public class software extends AppCompatActivity
                     } else {
                         total += 0;
                     }
-
+                
+                    //Creates intent, this class and the target class, transfers user to that activity
                     Intent intent = new Intent(software.this, total.class);
-                    intent.putExtra("total", total.toString());
-                    software.this.startActivity(intent);
+                    intent.putExtra("total", total.toString()); //Putting the total (integer) as an extra, converted it to a string
+                    software.this.startActivity(intent); //Transitioning to the next activity
 
                     x = 1;
                 }
