@@ -37,13 +37,16 @@ public class startup extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                //Checking which radio button is checked, the user will be transferred to the appropriate activity
                 if (radio_Hardware.isChecked())
                 {
+                    //Creates intent, this class and the target class, transfers user to that activity
                     Intent intent = new Intent(startup.this, hardware.class);
                     startup.this.startActivity(intent);
                 }
                 else if (radio_Software.isChecked())
                 {
+                    //Creates intent, this class and the target class, transfers user to that activity
                     Intent intent = new Intent(startup.this, software.class);
                     startup.this.startActivity(intent);
                 }
@@ -56,6 +59,7 @@ public class startup extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
+                //Creates intent, this class and the target class, transfers user to that activity
                 Intent intent = new Intent(startup.this, about.class);
                 startup.this.startActivity(intent);
             }
